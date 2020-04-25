@@ -45,7 +45,7 @@ namespace Func_Meth_Csharp
         }
         */
     //task 3 
-
+/* 
             public static int Sum(int a, int b)
             {
                 int total;
@@ -60,9 +60,35 @@ namespace Func_Meth_Csharp
                 int b = Convert.ToInt16(Console.ReadLine());
                 Console.WriteLine("The sum of the two numbers is: {0}", Sum(a, b));
 
+            } */
+
+            ///TASK 4 ..!--.!-- 
+
+            public static string testString(string str)
+                {
+                    int spaces = 0;
+                    Console.WriteLine("Please input a string");
+                    string userString = Console.ReadLine();
+                    
+                   
+                    for (int i = 0; i < userString.Length; i++)
+                        {
+                            if (userString[i] == ' ')
+                            {
+                                spaces++;
+                                Console.Write(spaces);
+                            }
+                        }
+                }
+
+
+            public static void Main()
+            {
+                Console.WriteLine("Please input a string");
+                string userString = Console.ReadLine();
+                    
+
             }
-
-
 
 
     }
