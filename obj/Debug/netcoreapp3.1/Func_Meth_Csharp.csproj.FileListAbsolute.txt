@@ -11,3 +11,16 @@ C:\Users\User\Desktop\Func_Meth_Csharp\bin\Debug\netcoreapp3.1\Func_Meth_Csharp.
 C:\Users\User\Desktop\Func_Meth_Csharp\obj\Debug\netcoreapp3.1\Func_Meth_Csharp.dll
 C:\Users\User\Desktop\Func_Meth_Csharp\obj\Debug\netcoreapp3.1\Func_Meth_Csharp.pdb
 C:\Users\User\Desktop\Func_Meth_Csharp\obj\Debug\netcoreapp3.1\Func_Meth_Csharp.genruntimeconfig.cache
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\bin\Debug\netcoreapp3.1\Func_Meth_Csharp.exe
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\bin\Debug\netcoreapp3.1\Func_Meth_Csharp.deps.json
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\bin\Debug\netcoreapp3.1\Func_Meth_Csharp.runtimeconfig.json
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\bin\Debug\netcoreapp3.1\Func_Meth_Csharp.runtimeconfig.dev.json
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\bin\Debug\netcoreapp3.1\Func_Meth_Csharp.dll
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\bin\Debug\netcoreapp3.1\Func_Meth_Csharp.pdb
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\obj\Debug\netcoreapp3.1\Func_Meth_Csharp.csprojAssemblyReference.cache
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\obj\Debug\netcoreapp3.1\Func_Meth_Csharp.csproj.CoreCompileInputs.cache
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\obj\Debug\netcoreapp3.1\Func_Meth_Csharp.AssemblyInfoInputs.cache
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\obj\Debug\netcoreapp3.1\Func_Meth_Csharp.AssemblyInfo.cs
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\obj\Debug\netcoreapp3.1\Func_Meth_Csharp.dll
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\obj\Debug\netcoreapp3.1\Func_Meth_Csharp.pdb
+C:\Users\Cooler Master\Documents\swinburne\Func_Meth_Csharp\obj\Debug\netcoreapp3.1\Func_Meth_Csharp.genruntimeconfig.cache

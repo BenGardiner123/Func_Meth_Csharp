@@ -64,29 +64,31 @@ namespace Func_Meth_Csharp
 
             ///TASK 4 ..!--.!-- 
 
-            public static string testString(string str)
+            public static int test(string userString)
                 {
                     int spaces = 0;
-                    Console.WriteLine("Please input a string");
-                    string userString = Console.ReadLine();
+                    string wordHolder;
                     
                    
                     for (int i = 0; i < userString.Length; i++)
                         {
+                            wordHolder = userString;
                             if (userString[i] == ' ')
                             {
                                 spaces++;
-                                Console.Write(spaces);
                             }
+                            
                         }
+                    return spaces;
                 }
 
 
             public static void Main()
             {
+                string holder;
                 Console.WriteLine("Please input a string");
-                string userString = Console.ReadLine();
-                    
+                holder = Console.ReadLine();
+                Console.Write(holder + " Has {0} spaces in it", test(holder));    
 
             }
 
