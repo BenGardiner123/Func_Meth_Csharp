@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace Func_Meth_Csharp
 {
@@ -119,7 +122,7 @@ namespace Func_Meth_Csharp
         }   */
 
     //////////TASK 6///////////////
-
+/* 
             public static void Main(){
             int userIntA;
             int userIntB;
@@ -139,11 +142,31 @@ namespace Func_Meth_Csharp
             Console.WriteLine("Your first number is now " + userIntA );
             Console.WriteLine("Your second number is now " + userIntB );
 
-        }
+        } */
 
         //////////TASK 7///////////////
         
+        public static void Main(string[] args){
+            int a;
+            int b;
+            Console.WriteLine("Input Base number");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Input the Exponent");
+            b = Convert.ToInt32(Console.ReadLine());
+            int result = PowNum(a, b);
+            Console.WriteLine("So the number "+ a + "^(to the power)"+ b + " = {0}", result);
+        }  
 
+            static int PowNum(int baseNum, int powNum)
+            {
+                int result = 1;
+
+                for (int i = 0;i < powNum; i++)
+                {
+                    result = result * baseNum;
+                }
+                return result;
+            }
 
     }
 }
