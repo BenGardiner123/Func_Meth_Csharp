@@ -146,7 +146,7 @@ namespace Func_Meth_Csharp
 
         //////////TASK 7///////////////
         
-        public static void Main(string[] args){
+       /*  public static void Main(string[] args){
             int a;
             int b;
             Console.WriteLine("Input Base number");
@@ -166,7 +166,42 @@ namespace Func_Meth_Csharp
                     result = result * baseNum;
                 }
                 return result;
+            } */
+
+        //////////TASK 8///////////////////
+
+        
+        public static void Main(string[] args){
+            int fibLimit;
+            Console.WriteLine("Input number of Fibonacci Series: ");
+            fibLimit = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The Fibonacci series of 5 numbers is: ");
+            
+            for (int i = 0; i < fibLimit; i++)
+            {
+                Console.Write("{0} ", fibSeq(i));
             }
+            
+        }
+
+         public static int fibSeq(int n)
+         {
+             int firstNum = 0, secondNum = 1, result = 0;
+            
+            if (n == 0) return 0; 
+            if (n == 1) return 1;
+            
+            for (int i = 2; i <= n; i++)
+            
+            {
+                result = firstNum + secondNum;
+                firstNum = secondNum;
+                secondNum = result;
+
+            }
+            return result;
+
+         }
 
     }
 }
