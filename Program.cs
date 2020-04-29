@@ -93,7 +93,7 @@ namespace Func_Meth_Csharp
             } */
 
         //task 5 ----------------------------/* 
-    /*     public static void Main(){
+      /*       public static void Main(){
             
             int [] myArray = new int[5];
         
@@ -116,28 +116,33 @@ namespace Func_Meth_Csharp
 
             Console.WriteLine("The sum if your numbers is {0} ", sum );
             
-        }  */
+        }   */
 
     //////////TASK 6///////////////
 
-        public static void Main(){
+            public static void Main(){
             int userIntA;
             int userIntB;
+            int userIntC;
 
-            Console.Write ("Please enter a word");
-            userStringA = Console.ReadLine();
-            Console.Write ("Please enter a word");
-            userStringB = Console.ReadLine();
+            Console.WriteLine("Please enter a number");
+            userIntA = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter a number");
+            userIntB = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("Just swapping your numbers..........");
+            
+            userIntC = userIntA;
+            userIntA = userIntB;
+            userIntB = userIntC;
+
+            Console.WriteLine("Your first number is now " + userIntA );
+            Console.WriteLine("Your second number is now " + userIntB );
 
         }
 
-        public static int Numswap(int a, int b)
-        {
-            Console.Write
-
-        }
-
+        //////////TASK 7///////////////
+        
 
 
     }
