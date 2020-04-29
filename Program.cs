@@ -64,7 +64,7 @@ namespace Func_Meth_Csharp
 
             ///TASK 4 ..!--.!-- 
 
-            public static int test(string userString)
+            /* public static int test(string userString)
                 {
                     int spaces = 0;
                     string wordHolder;
@@ -90,8 +90,10 @@ namespace Func_Meth_Csharp
                 holder = Console.ReadLine();
                 Console.Write(holder + " Has {0} spaces in it", test(holder));    
 
-            }
+            } */
 
+        //task 5 
 
+        
     }
 }
