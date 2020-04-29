@@ -95,21 +95,21 @@ namespace Func_Meth_Csharp
         //task 5 
         
         public static void Main(){
-            int userNum = 0;
+            
             int [] myArray = new int[5];
         
         
-            Console.Write("please enter 5 numbers into the console");
-            userNum = Convert.ToInt32(Console.ReadLine());
-
+            Console.WriteLine("please enter 5 numbers into the console");
+            
             for (int i = 0; i < myArray.Length; i++)
             {
-                myArray[i] = userNum;
+                myArray[i] = Convert.ToInt32(Console.ReadLine());
             }
             
             Console.Write("thanks for that...");
             Console.WriteLine("Outputting the Sum");
             int sum = 0;
+            
             foreach (var i in myArray)
             {
                 sum += i;
