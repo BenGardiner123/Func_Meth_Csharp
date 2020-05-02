@@ -207,41 +207,40 @@ namespace Func_Meth_Csharp
         
         public static void Main(string[] args){
         
-        
-        
-        }
-        
-        
-        public static primeCheck(int DogShit){
-        
-    
         Console.WriteLine("pleeae input a number ");
-        
-        int prime = int.Parse(Console.ReadLine());
-       
-        bool IsPrime = true;
+        int userPrimes = Convert.ToInt16(Console.ReadLine());
+        primeCheck(userPrimes);
 
-        for (int i = 2; i < prime/2; i++)
+        }
+        public static void primeCheck(int primes){   
+        int prime;
+        bool primeTest = true;
+
+        for (int i = 2; i < primes/2; i++)
         {
             if (prime % i == 0)
             {
-                IsPrime = false;
+                primeTest = false;
                 break;
             }
 
         }
        
-        if (IsPrime)
-        {
-            Console.WriteLine("{0} is a prime number", prime);
-        }
-        else 
-        {
-            Console.WriteLine("{0} is a not prime number", prime);
-        }
+        if (primeTest)
 
+            {
+                Console.WriteLine("{0} is a prime number", prime);
+            }
+            else 
+            {
+                Console.WriteLine("{0} is a not prime number", prime);
+            }
 
-    }
+        
+        }
+        
+
+    
 
 
     }
