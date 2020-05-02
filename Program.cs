@@ -242,7 +242,7 @@ namespace Func_Meth_Csharp
 
     ///////////////////////TASK 10 ///////////////////////////
 
-     public static void Main(string[] args){
+    /*  public static void Main(string[] args){
         
         Console.WriteLine("Input a number: ");
         int adMeUp = Convert.ToInt16(Console.ReadLine());
@@ -262,8 +262,20 @@ namespace Func_Meth_Csharp
         Console.WriteLine(sum);
         }
      
+ */
+    ////////////////TASK 11 ///////////////////
 
+    public static void Main(string[] args){
+
+
+    }
+    ////////////
+    public static void Recursion(int factor){  
     
+    
+
+
+
 
     }
 }
