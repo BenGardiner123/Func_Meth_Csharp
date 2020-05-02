@@ -205,20 +205,20 @@ namespace Func_Meth_Csharp
 
     ///////////////////TASK 9///////////////////
         
-        public static void Main(string[] args){
+     /*    public static void Main(string[] args){
         
-        Console.WriteLine("pleeae input a number ");
+        Console.WriteLine("Input a number: ");
         int userPrimes = Convert.ToInt16(Console.ReadLine());
         primeCheck(userPrimes);
 
         }
         public static void primeCheck(int primes){   
-        int prime;
+        
         bool primeTest = true;
 
         for (int i = 2; i < primes/2; i++)
         {
-            if (prime % i == 0)
+            if (primes % i == 0)
             {
                 primeTest = false;
                 break;
@@ -229,19 +229,41 @@ namespace Func_Meth_Csharp
         if (primeTest)
 
             {
-                Console.WriteLine("{0} is a prime number", prime);
+                Console.WriteLine("{0} is a prime number", primes);
             }
             else 
             {
-                Console.WriteLine("{0} is a not prime number", prime);
+                Console.WriteLine("{0} is a not prime number", primes);
             }
 
         
         }
+         */
+
+    ///////////////////////TASK 10 ///////////////////////////
+
+     public static void Main(string[] args){
         
+        Console.WriteLine("Input a number: ");
+        int adMeUp = Convert.ToInt16(Console.ReadLine());
+        adder(adMeUp);
+       
+        
+        }   
+        public static void adder(int addMe){   
+        int userNum = addMe; 
+        int sum = 0;
+        //////////////i don't take credit for this i found it on stack overflow//
+        
+        while (userNum != 0 ) {
+            sum += userNum % 10;
+            userNum /= 10;
+        }
+        Console.WriteLine(sum);
+        }
+     
 
     
-
 
     }
 }
