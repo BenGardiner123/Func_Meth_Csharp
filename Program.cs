@@ -175,7 +175,7 @@ namespace Func_Meth_Csharp
             int fibLimit;
             Console.WriteLine("Input number of Fibonacci Series: ");
             fibLimit = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("The Fibonacci series of 5 numbers is: ");
+            Console.WriteLine("The fibonaci sequence to {0} numbers is: ", fibLimit);
             
             for (int i = 0; i < fibLimit; i++)
             {
