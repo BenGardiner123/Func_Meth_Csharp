@@ -171,7 +171,7 @@ namespace Func_Meth_Csharp
         //////////TASK 8///////////////////
 
         
-        public static void Main(string[] args){
+       /*  public static void Main(string[] args){
             int fibLimit;
             Console.WriteLine("Input number of Fibonacci Series: ");
             fibLimit = Convert.ToInt32(Console.ReadLine());
@@ -201,7 +201,48 @@ namespace Func_Meth_Csharp
             }
             return result;
 
-         }
+         } */
+
+    ///////////////////TASK 9///////////////////
+        
+        public static void Main(string[] args){
+        
+        
+        
+        }
+        
+        
+        public static primeCheck(int DogShit){
+        
+    
+        Console.WriteLine("pleeae input a number ");
+        
+        int prime = int.Parse(Console.ReadLine());
+       
+        bool IsPrime = true;
+
+        for (int i = 2; i < prime/2; i++)
+        {
+            if (prime % i == 0)
+            {
+                IsPrime = false;
+                break;
+            }
+
+        }
+       
+        if (IsPrime)
+        {
+            Console.WriteLine("{0} is a prime number", prime);
+        }
+        else 
+        {
+            Console.WriteLine("{0} is a not prime number", prime);
+        }
+
+
+    }
+
 
     }
 }
