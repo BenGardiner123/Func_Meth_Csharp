@@ -254,15 +254,16 @@ namespace Func_Meth_Csharp
         int userNum = addMe; 
         int sum = 0;
     
-        
+        /// this uses the way c# does division - it adds then drops the last number off each time 
         while (userNum != 0 ) {
+            
             sum += userNum % 10;
             userNum /= 10;
         }
         Console.WriteLine(sum);
         } */
      
- 
+    
   
 
 
